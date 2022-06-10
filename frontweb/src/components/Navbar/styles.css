@@ -1,0 +1,40 @@
+.main-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+}
+
+.nav-logo-text, .nav-logo-text:hover {
+    color: #00285F;
+    cursor: pointer;
+    width: 700px;
+}
+
+.nav-logo-text h4 {
+    font-style: normal;
+    font-size: 24px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.main-menu {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    padding-bottom: 3px;
+    padding-top: 4px;
+}
+
+.main-menu a {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-menu a:hover {
+    font-weight: bold;
+}
+
+.main-menu a.active {
+    font-weight: bold;
+}
