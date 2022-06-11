@@ -1,29 +1,21 @@
 .main-nav {
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 70px;
+    min-height: 70px;
 }
 
 .nav-logo-text, .nav-logo-text:hover {
     color: #00285F;
     cursor: pointer;
-    width: 700px;
 }
 
 .nav-logo-text h4 {
-    font-style: normal;
     font-size: 24px;
-    padding-top: 21px;
-    padding-bottom: 21px;
 }
 
 .main-menu {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
-    gap: 48px;
-    padding-bottom: 3px;
-    padding-top: 4px;
+    width: 190px;
 }
 
 .main-menu a {
@@ -37,4 +29,43 @@
 
 .main-menu a.active {
     font-weight: bold;
+}
+
+#car-catalog-navbar {
+    justify-content: flex-end;
+}
+
+.container-fluid {
+    padding: 10px 20px;
+}
+
+.navbar-toggler {
+    background-image: url("/src/assets/images/hamburguer-menu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none; 
+}
+
+
+
+@media (min-width:576px){
+    .nav-logo-text, .nav-logo-text:hover {
+        width: 700px;
+    }
+}
+
+@media (min-width:992px){
+    .nav-logo-text, .nav-logo-text:hover {
+        width: 900px;
+    }
+}
+
+@media (min-width:1280px){
+    .nav-logo-text, .nav-logo-text:hover {
+        width: 930px;
+    }
+
+    .container-fluid {
+        padding: 10px 150px;
+    }
 }
