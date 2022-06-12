@@ -1,10 +1,11 @@
 .main-nav {
     min-height: 70px;
+    color: #00285F;
 }
 
 .nav-logo-text, .nav-logo-text:hover {
-    color: #00285F;
     cursor: pointer;
+    
 }
 
 .nav-logo-text h4 {
@@ -36,17 +37,20 @@
 }
 
 .container-fluid {
-    padding: 10px 20px;
+    padding: 14px 20px;
 }
 
-.navbar-toggler {
+.container-fluid button:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.navbar-toggler, .navbar-toggler:focus  {
     background-image: url("/src/assets/images/hamburguer-menu.svg");
     background-position: center;
     background-repeat: no-repeat;
-    border: none; 
+    border: none;
 }
-
-
 
 @media (min-width:576px){
     .nav-logo-text, .nav-logo-text:hover {
