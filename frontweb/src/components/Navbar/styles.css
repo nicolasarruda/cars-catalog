@@ -40,9 +40,12 @@
     padding: 14px 20px;
 }
 
-.container-fluid button:focus {
+.container-fluid button, .container-fluid button:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
+    background-position: center;
+    width: 33px;
+    margin-right: 24px;
 }
 
 .navbar-toggler, .navbar-toggler:focus  {

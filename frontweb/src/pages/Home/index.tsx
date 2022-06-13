@@ -1,4 +1,3 @@
-import MainImage from '../../assets/images/main-image-mobile.png';
 import Navbar from '../../components/Navbar';
 
 import './styles.css';
@@ -10,7 +9,8 @@ const Home = () => {
       <div className="home-container">
           <div className="home-banner">
             <div className="home-image-container">
-              <img src={MainImage} alt="imagem-principal" />
+                <div id="main-image">
+                </div>
             </div>
             <div className="home-content-container">
               <div>

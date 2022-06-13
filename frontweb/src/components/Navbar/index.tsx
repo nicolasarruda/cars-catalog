@@ -19,6 +19,7 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler"></span>
+          
         </button>
 
         <div className="collapse navbar-collapse offset-md-2" id="car-catalog-navbar">
