@@ -40,12 +40,17 @@
     padding: 14px 20px;
 }
 
+.container-fluid svg {
+    width: 100%;
+    height: auto;
+}
+
 .container-fluid button, .container-fluid button:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
     background-position: center;
-    width: 33px;
     margin-right: 24px;
+    background-repeat: no-repeat;
 }
 
 .navbar-toggler, .navbar-toggler:focus  {
@@ -53,6 +58,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border: none;
+    background-color: #F78B00;
 }
 
 @media (min-width:576px){

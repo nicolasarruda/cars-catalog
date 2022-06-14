@@ -1,0 +1,87 @@
+.catalog-container {
+    padding: 20px 10px;
+}
+
+.catalog-search-btn-container {
+    height: 86px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 10px;
+    padding-right: 15px;
+    min-width: 276px;
+}
+
+.catalog-search-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.catalog-search-container input, .catalog-search-container input:focus {
+    background-color: #fff;
+    width: 80%;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 0.1px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0 none;
+    outline: 0;
+}
+
+.btn-model-search button {
+    width: 36%;
+    height: 40px;
+}
+
+.catalog-card-container {
+    min-width: 300px;
+    height: 347px;
+    border-radius: 10px;
+    background-color: #EDEDED;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-image-container {
+    margin: 14px 36px 8px 43px;
+}
+
+.catalog-content-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.catalog-content-container {
+    width: 264px;
+    height: 105px;
+}
+
+.catalog-content-container h1 {
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+
+.catalog-content-container p {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #585858;
+    text-align: left;
+    margin: 14px 0 0 0;
+    height: 38px;
+}
+
+.btn-model button {
+    width: 258px;
+    margin: 0px 22px;
+}
+
