@@ -1,4 +1,4 @@
-.catalog-search-btn-container {
+.search-btn-container {
     height: 86px;
     background-color: #EDEDED;
     border-radius: 10px;
@@ -9,13 +9,13 @@
     min-width: 276px;
 }
 
-.catalog-search-container {
+.search-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.catalog-search-container input, .catalog-search-container input:focus {
+.search-container input, .search-container input:focus {
     background-color: #fff;
     width: 80%;
     height: 40px;
@@ -29,7 +29,7 @@
     outline: 0;
 }
 
-.btn-model-search button {
+.btn-model {
     width: 36%;
     height: 40px;
 }

@@ -1,5 +1,4 @@
 import Navbar from '../../components/Navbar';
-import ProductImage from '../../assets/images/product-card.png';
 import Search from '../../components/Search';
 import ProductCard from '../../components/ProductCard';
 

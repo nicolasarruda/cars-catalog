@@ -3,15 +3,15 @@ import './styles.css';
 const Search = () => {
   return (
     <>
-      <div className="catalog-search-btn-container">
-        <div className="catalog-search-container btn-model-search">
+      <div className="search-btn-container">
+        <div className="search-container btn-model-search">
           <input
             type="search"
             name="search"
             id="search"
             placeholder="Digite sua busca"
           />
-          <button type="submit" className="btn-model-search">
+          <button type="submit" className="btn-model">
             Buscar
           </button>
         </div>
