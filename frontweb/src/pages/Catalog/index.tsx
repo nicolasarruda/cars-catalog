@@ -1,5 +1,6 @@
 import Navbar from '../../components/Navbar';
 import ProductImage from '../../assets/images/product-card.png';
+import Search from '../../components/Search';
 
 import './styles.css';
 
@@ -8,19 +9,7 @@ const Catalog = () => {
     <>
       <Navbar />
       <div className="catalog-container">
-        <div className="catalog-search-btn-container">
-          <div className="catalog-search-container btn-model-search">
-            <input
-              type="search"
-              name="search"
-              id="search"
-              placeholder="Digite sua busca"
-            />
-            <button type="submit" className="btn-model-search">
-              Buscar
-            </button>
-          </div>
-        </div>
+        <Search />
 
         <div className="catalog-card-container">
           <div className="catalog-image-container">
