@@ -2,8 +2,8 @@ import ProductImage from '../../assets/images/product-card.png';
 import './styles.css';
 
 const ProductCard = () => {
-    return (
-      <>
+  return (
+    <>
         <div className="catalog-card-container">
           <div className="catalog-image-container">
             <img src={ProductImage} alt="Imagem do veículo" />
@@ -21,8 +21,8 @@ const ProductCard = () => {
             </div>
           </div>
         </div>
-      </>
-    );
-  }
-  
-  export default ProductCard;
+    </>
+  );
+};
+
+export default ProductCard;

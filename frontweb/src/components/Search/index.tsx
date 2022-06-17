@@ -11,9 +11,7 @@ const Search = () => {
             id="search"
             placeholder="Digite sua busca"
           />
-          <button type="submit" className="btn-model">
-            Buscar
-          </button>
+          <button type="submit">Buscar</button>
         </div>
       </div>
     </>

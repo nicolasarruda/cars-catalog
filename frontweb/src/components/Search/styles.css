@@ -23,13 +23,22 @@
     padding-right: 0.1px;
     display: flex;
     justify-content: flex-start;
-    font-size: 16px;
+    align-items: center;
+    font-size: 14px;
     border-radius: 5px 0px 0px 5px;
     border: 0 none;
     outline: 0;
 }
 
-.btn-model {
-    width: 36%;
+.btn-model-search button {
+    min-width: 36%;
     height: 40px;
+    background-color: #00285F;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center
 }
