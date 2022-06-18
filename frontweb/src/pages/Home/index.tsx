@@ -1,11 +1,7 @@
-import Navbar from '../../components/Navbar';
-
 import './styles.css';
 
 const Home = () => {
   return (
-    <>
-      <Navbar />
       <div className="home-container">
           <div className="home-banner">
             <div className="home-image-container">
@@ -27,7 +23,6 @@ const Home = () => {
             <p>Comece agora a navegar</p>
           </div>
         </div>
-    </>
   );
 };
 

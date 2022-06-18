@@ -61,7 +61,7 @@
 
     .search-btn-container {
         height: 123px;
-        min-width: 728px;
+        width: 728px;
     }
     
     .search-container {
@@ -117,20 +117,12 @@
 
     .search-btn-container {
         height: 123px;
-        min-width: 952px;
+        width: 952px;
         padding: 42px 97px 41px 97px;
     }
     
     .search-container {
         min-width: 758px;
-    }
-    
-    .search-container input, .search-container input:focus {
-        min-width: 70%;
-    }
-    
-    .btn-model-search button {
-        min-width: 20%;
     }
 
     .card-container {
